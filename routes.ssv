@@ -1,0 +1,6 @@
+# Web pages
+/ app/views/index.html
+/about app/views/about.html
+
+# CSS
+/css/master.css app/styles/master.css
