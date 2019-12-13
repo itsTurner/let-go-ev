@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Artboard1" transform="matrix(0.925926,0,0,0.520833,0,0)">
+        <rect x="0" y="0" width="1080" height="1920" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="0" y="0" width="1080" height="1920"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(4.15377e-17,-1.20598,0.678362,7.38448e-17,-629.891,2240.44)">
+                <text x="270.535px" y="1537.27px" style="font-family:'WorkSans-Black', 'Work Sans';font-weight:900;font-size:482.592px;">AERES</text>
+            </g>
+            <g transform="matrix(35.9647,0,0,1.99061,-13433.9,-1152.71)">
+                <rect x="386.606" y="579.076" width="16.955" height="964.53"/>
+            </g>
+            <g transform="matrix(8.23633,0,0,1.99061,-3184.21,-1152.71)">
+                <rect x="386.606" y="579.076" width="16.955" height="964.53"/>
+            </g>
+        </g>
+    </g>
+</svg>

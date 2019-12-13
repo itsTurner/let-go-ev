@@ -1,6 +1,16 @@
 # Web pages
 / app/views/index.html
 /about app/views/about.html
+/edison app/views/vehicles/edison.html
+/westing app/views/vehicles/westing.html
+/heinrich app/views/vehicles/heinrich.html
 
 # CSS
 /css/master.css app/styles/master.css
+/images/box.svg app/images/aeresbox.svg
+/images/aeres.png app/images/aeres.png
+/images/aeresfilled.png app/images/aeresfilled.png
+/images/edison.jpg app/images/abstracts/edison.jpg
+/images/westing.jpg app/images/abstracts/westing.jpg
+/images/heinrich.jpg app/images/abstracts/heinrich.jpg
+/images/cover.jpg app/images/abstracts/cover.jpg

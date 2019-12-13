@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400&display=swap');
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background-color: #020202;
+  font-family: "Work Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+* { transition: opacity 200ms, color 200ms; }
+a { color: white; }
+a:hover { color: #eee; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: coral;
+  box-sizing: border-box;
+  padding: 10vh 20vw;
+  background-image: url('/images/cover.jpg');
+  background-color: #222;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  z-index: 0;
+}
+header a { color: white; }
+header a:hover { color: #eee; }
+header .header-information {
+  font-size: 2em;
+}
+
+.aeresbox:hover { opacity: 80%; }
+
+header .aeresbox {
+  width: 5vw;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 0;
+}
+
+section.lower {
+  position: relative;
+  background-color: #121212;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
+brostraightup {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20vw;
+  width: 80vw;
+  box-sizing: border-box;
+}
+brostraightup .vehicle-link-to {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  height: 33.33333vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+brostraightup .vehicle-link-to::before {
+  content: '';
+  width: 100%;
+  height: 33.33333vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  mix-blend-mode: saturation;
+  z-index: 1;
+}
+brostraightup .vehicle-link-to::after {
+  content: '';
+  width: 100%;
+  height: 33.33333vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #a1a1a1;
+  mix-blend-mode: multiply;
+  z-index: 2;
+}
+brostraightup .vehicle-link-to:hover::before { width: 0%; }
+brostraightup .vehicle-link-to.edison { background-image: url('/images/edison.jpg'); }
+brostraightup .vehicle-link-to.westing { background-image: url('/images/westing.jpg'); }
+brostraightup .vehicle-link-to.heinrich { background-image: url('/images/heinrich.jpg'); }
+
+brostraightup h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: .2em;
+  z-index: 3;
+}
+.padded-information {
+  display: block;
+  padding: 10vh 10vw;
+  font-weight: 300;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5vw 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+nav .aeresbox { width: 10vw; }
+nav a {
+  margin: 0 auto 2.5vw auto;
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  nav .aeresbox { width: 120px; }
+  nav a { font-size: 18px; margin: 0 auto 29px auto; }
+}
+
+@media only screen and (max-width: 600px) {
+
+  header .aeresbox {
+    position: fixed;
+    width: 10vw;
+    top: 5vw;
+    left: 45vw;
+  }
+  .aeresbox {
+    position: absolute;
+    top: 5vw;
+    left: 45vw;
+    width: 10vw;
+  }
+  .about-link {
+    position: absolute;
+    top: 19vw;
+    width: 100vw;
+    text-align: center;
+  }
+  brostraightup {
+    width: 100vw;
+    position: absolute;
+    top: 20vw;
+    left: 0;
+    padding: 5vh 10vw;
+  }
+  nav {
+    width: 100vw;
+    padding: 0;
+  }
+
+}
