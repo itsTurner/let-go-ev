@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@ section.lower {
   background-color: #121212;
   z-index: 1;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 brostraightup {
@@ -110,9 +110,27 @@ brostraightup .vehicle-link-to::after {
   z-index: 2;
 }
 brostraightup .vehicle-link-to:hover::before { width: 0%; }
-brostraightup .vehicle-link-to.edison { background-image: url('/images/edison.jpg'); }
-brostraightup .vehicle-link-to.westing { background-image: url('/images/westing.jpg'); }
-brostraightup .vehicle-link-to.heinrich { background-image: url('/images/heinrich.jpg'); }
+.edison { background-image: url('/images/edison.jpg'); }
+.westing { background-image: url('/images/westing.jpg'); }
+.heinrich { background-image: url('/images/heinrich.jpg'); }
+brostraightup.full {
+  width: 100vw;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding: 25vh 25vw;
+}
+
+numbercase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+numhighlight {
+  display: block;
+  font-size: 5em;
+}
 
 brostraightup h2 {
   margin: 0;
@@ -146,6 +164,23 @@ nav a {
   font-size: 110%;
 }
 
+stats {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  top: 85vh;
+}
+stat {
+  padding: 10px;
+  font-weight: 200;
+}
+
+.light {
+  font-weight: 200;
+}
 
 @media only screen and (min-width: 1200px) {
   nav .aeresbox { width: 120px; }
@@ -182,6 +217,12 @@ nav a {
   nav {
     width: 100vw;
     padding: 0;
+  }
+  stats {
+    flex-direction: column;
+    top: 100vh;
+    box-sizing: border-box;
+    padding: 10vh 10vw;
   }
 
 }

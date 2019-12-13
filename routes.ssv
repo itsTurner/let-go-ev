@@ -7,6 +7,8 @@
 
 # CSS
 /css/master.css app/styles/master.css
+
+# Images
 /images/box.svg app/images/aeresbox.svg
 /images/aeres.png app/images/aeres.png
 /images/aeresfilled.png app/images/aeresfilled.png
